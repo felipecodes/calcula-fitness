@@ -1,0 +1,224 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.btn-1{
+  text-transform: uppercase;
+  border: 4px solid #EB2D2D;
+  border-radius: 33px ;
+  padding: 10px 0;
+  background-color: #EB2D2D;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+.btn-1:hover{
+  color: rgb(41, 0, 0);
+  background: rgb(212, 31, 31);
+  border: none;
+}
+
+
+.btn {
+  text-transform: uppercase;
+  border: 4px solid #EB2D2D;
+  padding: 10px 0;
+  color: #EB2D2D;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+.btn:hover{
+  color: white;
+  background: #B21E1E;
+}
+
+.subtitulo{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitulo:after{
+  content: "";
+  display: block;
+  height: 3px;
+  background: rgb(19, 18, 18);
+  width: 60px;
+  margin: 8px auto;
+
+}
+
+.calculadora_{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+.calculadora_:after{
+  content: "";
+  display: block;
+  height: 3px;
+  background: rgb(141, 38, 38);
+  width: 300px;
+  margin: 8px auto;
+}
+
+/* header */
+.header {
+  width: 100%;
+  background-color: #252525;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+nav ul li a{
+  color: white;
+  text-transform: uppercase;
+
+}
+nav ul li a:hover{
+  color: rgb(143, 136, 136);
+}
+.menu-desktop{
+  text-align: right;
+}
+
+.menu-desktop ul li{
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.menu-desktop ul li a{
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: .1em;
+  padding-left: 10px 0;
+}
+
+
+/* intro */
+
+.introducao{
+  width: 100%;
+  height: 380px;
+  background: url("../image/bg2.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 96px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.introducao h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.quote-externo{
+  color: white;
+  width: 360px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.quote-externo p{
+  font-style: italic;
+}
+.quote-externo p:before, .quote-externo p:after{
+  content: "";
+  display: block;
+  height: 3px;
+  background: #fff;
+  width: 60px;
+  margin: 14px auto 10px auto;
+
+}
+
+.quote-externo cite{
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: .1em;
+}
+
+.calcula_lista li{
+  text-align: center;
+  background: #252525;
+  height: 250px;
+  
+}
+
+.calcula_icon{
+ background-color: #747171;
+ margin-bottom: 20px;
+}
+
+.calculadoras{
+  margin-top: 40px;
+}
+
+li h2{
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: .1em;
+  margin-bottom: 30px;
+}
+
+
+footer{
+  clear: both;
+  background-color: #252525;
+}
+
+.rodape{
+  margin-top: 40px;
+  height: 80px;
+  text-align: center;
+  color: white;
+}
+
+footer p{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+footer a{
+  color: #EB2D2D;
+}
+footer a:hover{
+  color:rgb(163, 33, 33);
+}
+
+.redessociais{
+    padding-top: 20px;
+    padding-right: 170px;
+   
+
+}
+
+
+
